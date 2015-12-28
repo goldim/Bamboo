@@ -12,11 +12,12 @@ CSS/SVG mechanics work in a qooxdoo program I'm simply using PNG versions of the
 
 ## How to use «Bamboo»
 
-1. Download the theme files and unzip the contents into an appropriate folder on your local machine. 
+1. Download the theme files and unzip the contents into an appropriate folder named "Bamboo" on your local machine. 
 (Recommendation: Put the theme outside of the qooxdoo SDK folder, but on the same directory level.)
 
 2. Modify the contrib.json file of your application by adding «Bamboo» as a library, e.g.
   ```
+  [...]
   "jobs" :
   {
     "libraries" :
@@ -29,6 +30,7 @@ CSS/SVG mechanics work in a qooxdoo program I'm simply using PNG versions of the
       ]
     }
   }
+  [...]
   ```
 3. Change the `QXTHEME` key in `config.json` to `"bamboo.theme.Theme"`. This way the theme of your application is 
 **replaced** by «Bamboo». The downside to this approach: If you want to modify and/or extend the "bambooish" appearance 

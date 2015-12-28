@@ -30,7 +30,6 @@ CSS/SVG mechanics work in a qooxdoo program I'm simply using PNG versions of the
     }
   }
   ```
-  
 3. Change the `QXTHEME` key in `config.json` to `"bamboo.theme.Theme"`. This way the theme of your application is 
 **replaced** by «Bamboo». The downside to this approach: If you want to modify and/or extend the "bambooish" appearance 
 of your application you have to do this directly in the «Bamboo» theme files which may later lead to subtle bugs or
@@ -39,17 +38,17 @@ You might, therefore, want to invest a few more minutes, leave the `QXTHEME` key
 your predefined application theme **inherit** from «Bamboo» instead of being replaced by it. To do this, go to the 
 theme folder of your application and modify Appearance.js, Color.js, Decoration.js and Font.js as shown in this 
 example:
-```
-qx.Theme.define("myapp.theme.Appearance",
-{
-  //extend : qx.theme.modern.Appearance,
-  extend : bamboo.theme.Appearance,
-
-  appearances :
+  ```
+  qx.Theme.define("myapp.theme.Appearance",
   {
-  }
-});
-```
+    //extend : qx.theme.modern.Appearance,
+    extend : bamboo.theme.Appearance,
+
+    appearances :
+    {
+    }
+  });
+  ```
 This way you can safely add new appearances, decorators, colors and fonts, or overwrite existing ones.
 
-Finally, generate your application and your are done.
+4. Generate your application and your are done.

@@ -200,8 +200,7 @@ qx.Theme.define("bamboo.theme.Appearance",
       style: function(states)
       {
         return {
-          icon: states.selected || states.hovered || states.focused ? "decoration/arrows/down-selected.png" : 
-                                                                      "decoration/arrows/down.png",
+          icon: "decoration/arrows/down.png",
           iconPosition: "right"
         };
       }

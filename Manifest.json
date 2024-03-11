@@ -1,38 +1,32 @@
 {
-  "info" :
-  {
-    "name" : "Bamboo",
-    "category" : ["theme"],
-
-    "summary" : "Bamboo Theme Contribution",
-    "description" : "Another theme for qx 3.0 and above (up to v5.0.2).",
-
-    "homepage" : "https://github.com/scro34/Bamboo",
-
-    "license" : "MIT",
-    "authors" :
-    [
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
+  "info": {
+    "name": "BambooTheme",
+    "summary": "Bamboo Theme Contribution",
+    "description": "A bamboo theme for qx 7.0",
+    "homepage": "https://github.com/goldim/Bamboo",
+    "license": "MIT license",
+    "authors": [
       {
-        "name" : "Norbert Schröder (scro34)",
-        "email" : "schroeder@scro34.de"
+        "name": "Norbert Schröder (scro34)",
+        "email": ""
+      },
+      {
+        "name": "Dmitrii Zolotov",
+        "email": "zolotovdy@yandex.ru"
       }
     ],
-
-    "version" : "1.0.0",
-    "qooxdoo-versions": ["3.0", "3.5", "4.0", "4.1", "5.0"],
-
-    "download" : "",
-    "checksum" : ""
+    "version": "1.0.0"
   },
-
-  "provides" :
-  {
-    "namespace"   : "bamboo",
-    "encoding"    : "utf-8",
-    "class"       : "source/class",
-    "resource"    : "source/resource",
-    "translation" : "source/translation",
-    "type"        : "contribution"
+  "provides": {
+    "namespace": "bamboo",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource",
+    "translation": "source/translation"
+  },
+  "requires": {
+    "@qooxdoo/framework": "^7.6.3",
+    "qooxdoo/qxl.formdemo": "^2.0.0"
   }
 }
-

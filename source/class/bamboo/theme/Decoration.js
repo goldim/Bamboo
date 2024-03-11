@@ -1373,7 +1373,13 @@ qx.Theme.define("bamboo.theme.Decoration",
       style: {
         radius: 0
       }
+    },
+
+    "theme-demo-title-separator": {
+      style: {
+        backgroundImage: "decoration/radiobutton/unchecked.png",
+        backgroundRepeat: "scale"
+      }
     }
-    
   }
 });

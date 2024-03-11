@@ -1,7 +1,6 @@
-/** <h3> Bamboo API Documentation </h3>
+/** <h3> bamboo API Documentation </h3>
  *
- * This text will be used in the API documentation of your contribution
- * generated with __generate.py api__. You should replace this text with an
- * overview of your contribution and an introduction on how to use it.
+ * Replace this text with an appropriate overview and introduction to your 
+ * contrib library.
  *
  */

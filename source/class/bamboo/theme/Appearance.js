@@ -14,13 +14,12 @@
 
 /**
  * The Bamboo appearance theme.
- *
- * @asset(bamboo/decoration*)
+ * 
+ * @asset(bamboo/*)
  * 
  * @asset(qx/icon/${qx.icontheme}/16/actions/view-refresh.png)
  * @asset(qx/static/*)
  */
- 
 qx.Theme.define("bamboo.theme.Appearance",
 {
   aliases: {
@@ -154,6 +153,8 @@ qx.Theme.define("bamboo.theme.Appearance",
         };
       }
     },
+
+    "toggle-button" : "button",
 
     "button-frame/image":
     {

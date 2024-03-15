@@ -28,7 +28,7 @@ qx.Class.define("bamboo.demo.Icons", {
                 MEDIA_PLAYER_SKIP_BACK: "bamboo/icon/16/fast-backward.png",
                 MEDIA_PLAYER_SKIP_FORWARD: "bamboo/icon/16/fast-forward.png",
                 MEDIA_PLAYER_START: "bamboo/icon/22/play.png",
-                MEDIA_PLAYER_PAUSE: "bamboo/icon/22/pause-focused.png",
+                MEDIA_PLAYER_PAUSE: "bamboo/icon/22/pause.png",
                 MEDIA_PLAYER_LEVEL_00: "bamboo/icon/16/signal-00.png",
                 MEDIA_PLAYER_LEVEL_25: "bamboo/icon/16/signal-20.png",
                 MEDIA_PLAYER_LEVEL_50: "bamboo/icon/16/signal-40.png",
@@ -41,7 +41,16 @@ qx.Class.define("bamboo.demo.Icons", {
 
                 GO_HOME: "bamboo/icon/16/home.png",
                 WIKIPEDIA: "bamboo/icon/16/wikipedia.png",
-                YOUTUBE: "bamboo/icon/16/film.png"
+                YOUTUBE: "bamboo/icon/16/film.png",
+
+                GO_HOME_HOVER: "bamboo/icon/16/home-focused.png",
+                WIKIPEDIA_HOVER: "bamboo/icon/16/wikipedia-focused.png",
+                YOUTUBE_HOVER: "bamboo/icon/16/film-focused.png",
+
+                MEDIA_PLAYER_SKIP_BACK_HOVER: "bamboo/icon/16/fast-backward-focused.png",
+                MEDIA_PLAYER_SKIP_FORWARD_HOVER: "bamboo/icon/16/fast-forward-focused.png",
+                MEDIA_PLAYER_START_HOVER: "bamboo/icon/22/play-focused.png",
+                MEDIA_PLAYER_PAUSE_HOVER: "bamboo/icon/22/pause-focused.png"
             }
             return icons[icon];
         }

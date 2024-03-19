@@ -49,5 +49,5 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 <!-- CONTACT -->
 ## Contact
 
-Norbert Schröder - [@scro34](http://scro34.de/) - email: n.schroeder@scro34.de
-Dmitrii Zolotov - [@goldim](https://github.com/goldim) - email: zolotovdy@yandex.ru
+- Norbert Schröder - [@scro34](http://scro34.de/) - email: n.schroeder@scro34.de
+- Dmitrii Zolotov - [@goldim](https://github.com/goldim) - email: zolotovdy@yandex.ru

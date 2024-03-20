@@ -18,12 +18,12 @@ qx.Class.define("bamboo.demo.Icons", {
                 MEDIA_PLAYER_SMALL: "bamboo/icon/16/headphones-focused.png",
                 WEB_BROWSER_SMALL: "bamboo/icon/16/earth-focused.png",
 
-                TABLE_SHOW_DIALOG: "icon/32/status/dialog-information.png",
-                TABLE_LIST_ADD: "icon/16/actions/list-add.png",
-                TABLE_LIST_REMOVE: "icon/16/actions/list-remove.png",
-                TABLE_SHOW_SELECTION: "icon/16/status/dialog-information.png",
-                TABLE_EDIT_UNDO: "icon/16/actions/edit-undo.png",
-                TABLE_CALENDAR: "icon/16/apps/office-calendar.png",
+                TABLE_SHOW_DIALOG: "bamboo/icon/16/info.png",
+                TABLE_LIST_ADD: "bamboo/icon/16/plus.png",
+                TABLE_LIST_REMOVE: "bamboo/icon/16/minus.png",
+                TABLE_SHOW_SELECTION: "bamboo/icon/16/info.png",
+                TABLE_EDIT_UNDO: "bamboo/icon/16/reply.png",
+                TABLE_CALENDAR: "bamboo/icon/16/calendar.png",
 
                 MEDIA_PLAYER_SKIP_BACK: "bamboo/icon/16/fast-backward.png",
                 MEDIA_PLAYER_SKIP_FORWARD: "bamboo/icon/16/fast-forward.png",
@@ -35,9 +35,13 @@ qx.Class.define("bamboo.demo.Icons", {
                 MEDIA_PLAYER_LEVEL_75: "bamboo/icon/16/signal-60.png",
                 MEDIA_PLAYER_LEVEL_100: "bamboo/icon/16/signal-100.png",
 
-                WEB_BROWSER_PREVIOUS: "icon/16/actions/go-previous.png",
-                WEB_BROWSER_NEXT: "icon/16/actions/go-next.png",
-                WEB_BROWSER_GO: "icon/16/actions/media-playback-start.png",
+                WEB_BROWSER_PREVIOUS: "bamboo/icon/16/arrow-left.png",
+                WEB_BROWSER_NEXT: "bamboo/icon/16/arrow-right.png",
+                WEB_BROWSER_GO: "bamboo/icon/22/play.png",
+
+                WEB_BROWSER_PREVIOUS_HOVER: "bamboo/icon/16/arrow-left-focused.png",
+                WEB_BROWSER_NEXT_HOVER: "bamboo/icon/16/arrow-right-focused.png",
+                WEB_BROWSER_GO_HOVER: "bamboo/icon/22/play-focused.png",
 
                 GO_HOME: "bamboo/icon/16/home.png",
                 WIKIPEDIA: "bamboo/icon/16/wikipedia.png",
